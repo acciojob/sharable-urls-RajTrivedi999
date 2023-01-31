@@ -3,12 +3,13 @@
   <body>
     <script type="text/javascript" src="./script.js">
 	</script>
-	  <form method="post" id="myDoc">
-		  <input id="name" type="text" name="name">
-		  <input id="year" type="number" name="year">
-		  <button id="button">submit</button>
+	  <div>
 		  <h3 id="url">https://localhost:8080/</h3>
-	  </form>
+		  <label for="name" name="name"> Name: </label>
+		  <input id="name" type="text" name="name"> <br>
+		  <label for="name" name="name"> Year: </label>
+		  <input id="year" type="number" name="year"> <br>
+		  <button id="button" type="button" onclick="clickMe()">submit</button>
+	  </div>
   </body>
-
 </html>

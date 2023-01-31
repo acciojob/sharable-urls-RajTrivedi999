@@ -1,0 +1,11 @@
+div{
+	border:2px solid black;
+	width:350px;
+	display:flex;
+	flex-flow: column wrap;
+	padding: 0px 15px;
+	padding-bottom:15px;
+}
+button{
+	width:60px;
+}
